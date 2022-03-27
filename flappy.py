@@ -167,10 +167,5 @@ while True:
         break 
 
 pygame.font.init()
-FONTE_PONTOS = pygame.font.SysFont('arial', 50)
-def atualizar_score():
-     for (x, y) in pipes:
-        if turtle == x:
-            SCORE += 1
 
 
